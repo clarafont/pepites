@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,800');
+
+body {
+  background-image: url('../images/photo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 2em;
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+h3 {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.duree {
+  margin-top: 0.6em;
+}
+
+.logo {
+  width: 30%;
+  padding: 2em;
+}
+
+.informations {
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(15,15,15,1) 90%);
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+}
+
+.boutons {
+  display: inline-grid;
+  grid-gap: 1em;
+
+}
+
+.portrait {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.boutons img {
+width: 50px;
+
+}
+
+@media screen and (min-width: 600px) {
+
+    .logo {
+      width: 15%;
+      padding: 3em;
+    }
+    h1 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 800;
+      color: #ffffff;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    h2 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 2em;
+      margin: 0;
+    }
+
+    h3 {
+      font-family: 'Nunito', sans-serif;
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 1.8em;
+      margin: 0;
+    }
+
+    .duree {
+      margin-top: 0.6em;
+    }
+    .informations {
+      background: rgb(255,255,255);
+      background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(15,15,15,1) 90%);
+      padding: 3em;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+
+    }
+
+}
