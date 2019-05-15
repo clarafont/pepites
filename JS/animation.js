@@ -11,7 +11,7 @@ function anim(){
   if (isOpen) {
     isOpen = false;
   console.log("Je suis fermé");
-  img.setAttribute("src", "../images/picto-son2.svg");
+  img.style.display = 'block';
   audio.pause();
 
 }
@@ -20,7 +20,7 @@ function anim(){
   else {
   isOpen = true;
   console.log("Je suis ouvert");
-  img.setAttribute("src", "../images/picto-son.svg");
+  img.style.display = 'none';
   audio.play();
 }
 
