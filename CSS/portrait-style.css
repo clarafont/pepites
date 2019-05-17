@@ -46,8 +46,8 @@ p {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   color: #ffffff;
-  font-size: 2em;
-  line-height: 2;
+  font-size: 2.2em;
+  line-height: 2.2;
 }
 
 .fermer {
@@ -130,7 +130,7 @@ width: 80px;
 
 }
 #picto {
-width: 50%;
+width: 30%;
 margin: 0;
 opacity: 0.5;
 }
