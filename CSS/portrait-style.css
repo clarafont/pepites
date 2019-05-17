@@ -6,6 +6,58 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   margin: 0;
+
+}
+
+
+nav{
+  transition: all .2s;
+	background: linear-gradient(225deg, rgba(59,156,107,1) 0%, rgba(64,164,183,1) 43%, rgba(53,105,166,1) 100%);
+	width: 80%;
+  height: auto;
+  z-index: 100;
+  position: absolute;
+  padding: 3em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 0;
+}
+
+.a-propos {
+display:flex;
+justify-content: center;
+height: 100%;
+
+}
+
+.hidden{
+  transform: translateX(-120%);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+
+p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 2em;
+  line-height: 2;
+}
+
+.fermer {
+  width: 50px;
+}
+
+button {
+background: none;
+border: none;
+outline-style:none;
 }
 
 h1 {
@@ -71,9 +123,11 @@ width: 80px;
 
 
 #btn-play {
+
   display: flex;
   align-items: center;
   justify-content: center;
+
 }
 #picto {
 width: 50%;
@@ -125,8 +179,19 @@ opacity: 0.5;
 
   .boutons img {
   width: 50px;
-
   }
+  .fermer {
+    width: 30px;
+  }
+
+  p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 1.2em;
+    line-height: 2;
+  }
+
     #picto {
     width: 17%;
     margin: 0;
